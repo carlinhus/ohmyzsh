@@ -43,7 +43,7 @@ autoload -Uz compinit
 compinit -D
 source "$GLOBALIAS_TEST_PLUGIN"
 alias 1='cd -1'
-alias ll='ls -l'
+alias ll='ls -liah'
 alias -g G='| grep'
 GLOBALIAS_FILTER_VALUES=(ll)
 _globalias_test_capture() {
